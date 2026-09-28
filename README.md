@@ -38,21 +38,21 @@ Keep this folder structure and these filenames:
     2011-2024/
 2.data_preprocessing/
   2.1 SGI/
-    preprocess_sgi.py
+    SGI_preprocessing.py
   2.2 missForest/
-    preprocess_lerum.py
-    preprocess_global.py
+    Global_preprocess.py
+    Lerum_preprocess.py
     requirements.txt
   2.3 ARCHI/
-    preprocess_archi.py
+    Archi_preprocess.py
     requirements.txt
 3.Imputation and evaluation/
   3.1missForest/
-    impute_evaluate_lerum.R
-    impute_evaluate_global.R
-    np_shap_lerum.R
+    Global_imputation_evaluation.R
+    Lerum_imputation_evaluation.R
+    Lerum_SHAP.R
   3.2ARCHI/
-    impute_evaluate_archi.R
+    ARCHI_imputation_evaluation.R
 ```
 
 `Location_SGI.xlsx` must contain the sheet `Location_SGI`. Keep the original
